@@ -12,7 +12,7 @@ Project analysis is a set of claims about sources that move independently. Recor
 
 Group durable analysis by stable capability or owning boundary. Keep transient tracker statuses and counts at their source. If the project already owns a fact in a handbook, tracker, ADR, or runbook, link it and update it there when needed.
 
-If the project has no home for analysis, start with an index and project map in its docs. Give complex flows a small record per capability as they become useful. Link accepted requirements and delivery from the index, keep decisions near the engineering handbook, and leave task plans and PR evidence in their owning work items. When a separate analysis workspace is needed, give each area a project revision and owner so readers can check it without guessing which repo or branch it describes.
+Start with an index and project map in the chosen home for analysis. Use an [external analysis workspace](external-analysis-workspace.md) when assistant instructions and context belong outside the project. Give complex flows a small record per capability as they become useful. Link accepted requirements, plans, and decisions from their owning records. Give each analysis area a project revision and owner so readers can identify the code it describes.
 
 ## Decide what to recheck
 

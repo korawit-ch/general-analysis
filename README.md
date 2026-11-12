@@ -8,7 +8,8 @@ Use this field guide to understand an existing project, turn requirements into a
 2. **Ticket, spec, or decision.** Use [Requirements and planning](guides/requirements-and-planning.md). Reconcile the request with existing behavior and accepted decisions, then capture the scope and evidence in a [Change brief](templates/change-brief.md).
 3. **Pull request or local diff.** Use [Change review](change-review.md). Compare the correct revisions, map each criterion to code and checks, and report demonstrated defects in a [Review record](templates/review-record.md).
 4. **Existing analysis.** Use [Context maintenance](guides/context-maintenance.md). Identify claims affected by a change, then recheck and update them using a [Context update](templates/context-update.md).
-5. **A new AI session or handoff.** Use [AI sessions](guides/ai-sessions.md) to give an agent the right sources and an explicit job. Use the [worked example](examples/archive-project.md) to see a ticket, code trace, review finding, fix, and context refresh together.
+5. **A project without assistant setup.** Use [External analysis workspace](guides/external-analysis-workspace.md) to keep assistant instructions, project context, and handoffs in a sibling directory. Give the agent access to both directories when implementing.
+6. **A new AI session or handoff.** Use [AI sessions](guides/ai-sessions.md) to give an agent the right sources and an explicit job. Use the [worked example](examples/archive-project.md) to see a ticket, code trace, review finding, fix, and context refresh together.
 
 ## How much to produce
 

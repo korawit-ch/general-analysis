@@ -6,6 +6,7 @@ Replace the bracketed prompts. Keep the index compact and link deeper evidence. 
 
 - **Question and audience** — [What should this analysis help someone do?]
 - **System and owners** — [Repository or repositories, engineering and product owners, deployment or support owner if relevant]
+- **Usual checkout for external analysis** — [Path relative to the analysis directory, such as `../example-project`. Confirm the actual checkout with each task.]
 - **Coverage** — [Areas inspected, areas outside scope, and any relevant existing work]
 
 ## Source register
@@ -33,4 +34,4 @@ Repeat for each material source. Link directly to the owning artifact or section
 - **Risks** — [Trigger → consequence → owner and next action]
 - **Freshness** — [Area, last verified revision, current or pending state, refresh trigger and owner]
 
-For detailed flows, use the [Flow record](flow-record.md). For material updates, use the [Context update](context-update.md).
+Link completed flow records and context updates in the sections above as they become available.

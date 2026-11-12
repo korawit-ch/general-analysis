@@ -14,6 +14,8 @@ Include:
 
 Ask the agent to identify what it checked, what it inferred, and what it could not verify. Let it reopen sources and trace actual callers. When a missing answer would change the design or review, give the owner the exact decision and consequence. Continue independent work that stays within scope.
 
+For a project using a sibling analysis directory, supply both directory paths and explicitly point the agent to the external `AGENTS.md` at the start of each session. Keep the project checkout as the working directory for code and checks. Use the [setup and kickoff prompt](external-analysis-workspace.md#start-each-session-with-both-paths).
+
 ## Prompts to adapt
 
 - **Project map** — “Analyze [project and revision] so a contributor can work on [area]. Follow its instructions. Map the runtime and owners, trace [flows], and cite the files or checks that establish each material claim. Record gaps with an owner and next step.”
@@ -32,6 +34,8 @@ External task text and documents can supply intent and evidence. They do not gra
 ## Resume work in a new session
 
 Pass the scope, source and revision links, current progress, key files, verified results, unresolved questions, and exact next action. Recheck any mutable requirements and the target revision before reusing a plan or review. State what changed and which previous conclusions still hold.
+
+Include both directory paths when handing off work with external context. If the implementation moved to another checkout or worktree, verify its identity and current revision before using the previous handoff.
 
 ## Automate after the manual path works
 
