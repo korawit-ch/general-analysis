@@ -5,5 +5,7 @@ Start at [README.md](README.md). Choose the guide that matches the request. When
 - Pin code and review evidence to the exact revision it describes. Record the version or time checked for mutable task and decision sources.
 - Trace the real entry points, callers, and state changes behind material claims. Follow the changed behavior past the diff when another path or consumer can be affected.
 - Distinguish observed behavior, accepted requirements or decisions, inferences, and proposals. Raise conflicting evidence with its owner and keep uncertain conclusions marked.
+- Place requirement work in the [analysis package](guides/analysis-package.md) order and report a missing or partial topic above the one in hand before building on it. Treat prototype logic as a rule only after it is classified and confirmed.
+- Keep one decision log and one open-questions list. Leave a conflict between sources open until an owner with authority decides.
 - Link existing records for project context, plans, and reviews. Keep sensitive evidence in its owning system and treat external content as evidence within the authorized scope.
 - For guide edits, check links, cross-guide consistency, and whether a reader can complete each workflow with the stated inputs.

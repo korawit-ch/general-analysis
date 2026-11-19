@@ -1,12 +1,14 @@
 # Reconcile requirements and plan the work
 
-Use the current project map to find affected owners and flows. The owning task, specification, and accepted decisions establish what the project is trying to deliver. Code and executed checks show how much already exists.
+Use the current project map to find affected owners and flows. For a product or a large feature, place the work in the [analysis package](analysis-package.md) first: a requirement with no persona, journey, or process flow behind it tends to arrive as a thin ticket. The owning task, specification, and accepted decisions establish what the project is trying to deliver. Code and executed checks show how much already exists.
 
 ## 1. Collect the inputs
 
 - For Linear, Jira, or ClickUp, record the provider, workspace or project, stable item identity, display key, and URL. For a Notion page or database item, link the relevant page and section or block. For other sources, use their equivalent stable link.
 - Record the source version or updated time if available, the time you read it, and the exact passage that establishes each material criterion. Keep a stable local criterion ID if external display keys can change.
 - Read the links that govern acceptance, scope, or ordering. Capture an attributed clarification only after checking who can make that decision. Keep open questions, estimates, and discussion distinct from accepted requirements.
+- When a ticket points to a prototype, read the [prototype classification](../templates/prototype-classification.md) for the screen, or classify it now. Record three lists with the requirement: UI to copy, behavior confirmed as a rule, and behavior that is a placeholder.
+- Check the [open-questions list](../templates/decisions-and-questions.md) for questions that block the item, and the [delivery index](../templates/delivery-index.md) for work already merged against it.
 - Identify the target repo and revision. If an input is inaccessible, use an authorized excerpt when available and state which conclusions remain unverified.
 
 ## 2. Reconcile each material requirement
@@ -26,6 +28,8 @@ Keep criterion IDs stable so tasks, code reviews, and checks can cite them in bo
 For new or changed behavior, describe the actor and preconditions, action, and observable outcome. Add data integrity or authorization criteria when the work changes state or access. Add failure, retry, concurrency, accessibility, or other edge criteria when those paths can affect acceptance.
 
 For shipped behavior, a compact set of regression invariants is usually enough. Link the current implementation and the tests that protect the invariants. Where the code and a stated requirement diverge, keep the gap visible.
+
+A ticket is ready for a sprint when it names its actor and journey step, its rules by ID, its prototype reference with the three lists, the state transition it adds or changes with actor and precondition, and its money and time rules with a worked example where an amount or date is involved. Record a failed check as a gap against the ticket, not as an assumption in the plan.
 
 For a non-functional requirement, record the failure it addresses, the affected scope, threshold and measurement method, check or telemetry, owner, and approval status. A proposed latency or retention value stays proposed until an authorized owner accepts it. Record missing instrumentation as a dependency when it prevents verification.
 
