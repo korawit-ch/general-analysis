@@ -10,7 +10,13 @@ workspace/
   example-project-analysis/
     AGENTS.md                instructions for working with the paired project
     PROJECT.md               project identity, sources, and context index
+    PACKAGE.md               the twelve package topics, their state and records
+    decisions/               decision log and the single open-questions list
+    delivery/                generated index of change requests and tracker items
+    prototype/               prototype classification and design rules
 ```
+
+Only `AGENTS.md` and `PROJECT.md` are needed on the first day. Add the rest as the [analysis package](analysis-package.md) takes shape, and put the directory under version control before a second person or a refresh edits it.
 
 1. Use the [external AGENTS.md template](../templates/external-agents.md) for the analysis directory's `AGENTS.md`. Use the [Project context template](../templates/project-context.md) for `PROJECT.md`.
 2. In `PROJECT.md`, name the target repository by its stable identity and record the usual checkout location relative to the analysis directory where practical, such as `../example-project`. The session supplies the actual checkout or worktree for the task. Keep the last verified project revision with the claims it supports. For a non-Git project, identify the source and snapshot or version you inspected.

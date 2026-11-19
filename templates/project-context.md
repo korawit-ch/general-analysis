@@ -30,7 +30,9 @@ Repeat for each material source. Link directly to the owning artifact or section
 ## Delivery and maintenance
 
 - **Checks and prerequisites** — [Commands or CI, local setup, scope and verification limits]
-- **Requirements, plan, and decisions** — [Owning links, unresolved conflicts and approvers]
+- **Package coverage** — [Link to the package index; topics that are partial or missing]
+- **Requirements, plan, and decisions** — [Owning links, decision log, open-questions list, unresolved conflicts and approvers]
+- **Delivery index** — [Link; the revision it was built from]
 - **Risks** — [Trigger → consequence → owner and next action]
 - **Freshness** — [Area, last verified revision, current or pending state, refresh trigger and owner]
 

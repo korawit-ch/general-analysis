@@ -7,7 +7,9 @@ Use the owning task or PR when the brief fits there. Link a versioned plan when 
 - **Task source** — [Provider and project, stable ID and link, version or updated time, date read]
 - **Project source** — [Repository, target branch or commit, relevant instructions and project context]
 - **Scope and success** — [Requested behavior, actor, observable result, exclusions, existing work]
-- **Decisions and dependencies** — [Accepted links, unresolved conflicts, owner, impact on the plan]
+- **Package place** — [Persona, journey step, and process flow the change belongs to; any topic that is missing]
+- **Prototype reference** — [Screen and revision; UI to copy, behavior confirmed as a rule, behavior that is a placeholder]
+- **Decisions and dependencies** — [Accepted links, open questions that block it, unresolved conflicts, owner, impact on the plan]
 
 ## Reconciliation and acceptance
 
